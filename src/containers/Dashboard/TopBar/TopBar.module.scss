@@ -1,0 +1,6 @@
+@import '../../../assets/sass/variables';
+
+.topbarContainer {
+  grid-area: topbar;
+  background-color: $dark;
+}

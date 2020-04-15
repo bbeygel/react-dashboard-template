@@ -1,0 +1,17 @@
+@import '../../assets/sass/variables';
+
+.dashboardContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 90px 1fr;
+  grid-template-columns: 245px 1fr;
+  grid-template-areas: 
+    'navbar topbar'
+    'navbar content';
+  background-color: $background;
+
+  .contentContainer {
+    grid-area: content;
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../../../assets/sass/variables';
+
+.navBarItemContainer {
+  padding: 16px 20px;
+  margin: 10px;
+  border-radius: 2px;
+
+  transition: ease-in-out .1s;
+  &:hover {
+    background-color: rgba($color: $primary, $alpha: 0.05);
+    cursor: pointer;
+    color: $primary;
+  }
+
+  &:active {
+    background-color: rgba($color: $primary, $alpha: 0.11);
+  }
+}

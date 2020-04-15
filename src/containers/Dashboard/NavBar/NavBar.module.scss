@@ -1,0 +1,13 @@
+@import '../../../assets/sass/variables';
+
+.navbarContainer {
+  grid-area: navbar;
+  background-color: $white;
+  display: grid;
+  grid-template-rows: 90px 1fr;
+
+  .navbarTitle {
+    align-self: center;
+    margin: 20px;
+  }
+}
